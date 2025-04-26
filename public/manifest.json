@@ -1,0 +1,45 @@
+{
+    "short_name": "Face Attendance",
+    "name": "Face Recognition Attendance System",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64 32x32 24x24 16x16",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#4f46e5",
+    "background_color": "#ffffff",
+    "description": "A face recognition attendance system for educational institutions",
+    "orientation": "portrait",
+    "scope": "/",
+    "shortcuts": [
+      {
+        "name": "Take Attendance",
+        "short_name": "Attendance",
+        "description": "Take attendance using face recognition",
+        "url": "/teacher/take-attendance",
+        "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "View Records",
+        "short_name": "Records",
+        "description": "View attendance records",
+        "url": "/teacher/records",
+        "icons": [{ "src": "logo192.png", "sizes": "192x192" }]
+      }
+    ]
+  }
+  
